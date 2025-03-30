@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <!-- Main Content -->
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <!-- Custom Bottom Navigation Background -->
+    <ImageView
+        android:id="@+id/bottomNavBg"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/bottom_nav_background"
+        android:scaleType="fitXY"/>
+
+    <!-- Floating Action Button (FAB) -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabMic"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:src="@drawable/ic_search"
+        app:backgroundTint="@color/deep_blue"
+        app:elevation="8dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        app:useCompatPadding="true"/>
+
+    <!-- Bottom Navigation Bar -->
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigation"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/transparent"
+        app:menu="@menu/bottom_nav_menu"
+        app:itemIconTint="@color/bottom_nav_color"
+        app:itemTextColor="@color/bottom_nav_color"
+        app:labelVisibilityMode="labeled"
+        app:itemRippleColor="@color/primaryDarkColor"/>
+
+</RelativeLayout>

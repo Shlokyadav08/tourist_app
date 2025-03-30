@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "52334606964",
+    "project_id": "citysight-seeing",
+    "storage_bucket": "citysight-seeing.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:52334606964:android:6a60ca9a512c3eb35eaf21",
+        "android_client_info": {
+          "package_name": "com.example.apptrial1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFLpEVDgJSVIo8uZUYPx-lVXZGhK095Pc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

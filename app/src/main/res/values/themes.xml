@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base Application Theme -->
+    <style name="Base.Theme.CitySightseeing" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Customize app theme here -->
+    </style>
+
+    <!-- Main Application Theme -->
+    <style name="Theme.Apptrial1" parent="Base.Theme.CitySightseeing" />
+
+    <!-- Splash Screen Theme (Android 12 and Above) -->
+    <style name="Theme.App.SplashScreen" parent="Base.Theme.CitySightseeing">
+    </style>
+
+</resources>
